@@ -1,0 +1,191 @@
+.air-velocity-calculator__title {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .air-velocity-calculator__title {
+    margin: 20px 0 0 0;
+  }
+}
+
+.air-velocity-calculator__text {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .air-velocity-calculator__text {
+    margin: 15px 0 0 0;
+  }
+}
+
+.air-velocity-calculator__input {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.air-velocity-calculator__result {
+  width: 140px;
+  margin: 5px 10px 0 5px;
+}
+
+.calculator-form {
+  margin: 50px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .calculator-form {
+    margin: 40px auto 0;
+  }
+}
+
+.calculator-form__title {
+  display: flex;
+}
+
+@media (max-width: 700px) {
+  .calculator-form__title .calculator-form__first-col {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .calculator-form__title .calculator-form__first-col {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .calculator-form__title .calculator-form__second-col {
+    display: none;
+  }
+}
+
+.calculator-form__first-col {
+  width: 490px;
+}
+
+@media (max-width: 1486px) {
+  .calculator-form__first-col {
+    width: 250px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .calculator-form__first-col {
+    width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  .calculator-form__first-col {
+    width: 100%;
+  }
+}
+
+.calculator-form__second-col {
+  width: 440px;
+}
+
+@media (max-width: 1486px) {
+  .calculator-form__second-col {
+    width: 430px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .calculator-form__second-col {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .calculator-form__second-col {
+    width: 95%;
+  }
+}
+
+.calculator-form__parameter {
+  display: flex;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 10px 0 0 0;
+}
+
+@media (max-width: 700px) {
+  .calculator-form__parameter {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 10px auto 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .calculator-form__parameter {
+    width: 100%;
+  }
+}
+
+.calculator-form__value {
+  width: 140px;
+  margin: 0 5px;
+}
+
+@media (max-width: 1486px) {
+  .calculator-form__value {
+    width: 135px;
+  }
+}
+
+@media (max-width: 700px) {
+  .calculator-form__value {
+    margin: 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .calculator-form__value {
+    width: 115px;
+  }
+}
+
+.calculator-form__third-col {
+  text-align: right;
+}
+
+@media (max-width: 1024px) {
+  .calculator-form__third-col {
+    width: 10%;
+  }
+}
+
+@media (max-width: 700px) {
+  .calculator-form__third-col {
+    width: 5%;
+  }
+}
+
+.calculator-form__btn-block {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: start;
+}
+
+@media (max-width: 1024px) {
+  .calculator-form__btn-block {
+    margin: 20px 0 0 0;
+    justify-content: center;
+  }
+}
+
+.calculator-form__btn {
+  background: #53b4f3;
+  border-radius: 29px;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 10px;
+}

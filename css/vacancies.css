@@ -1,0 +1,177 @@
+.vacancies__title {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .vacancies__title {
+    margin: 20px 0 0 0;
+  }
+}
+
+.vacancies__text {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 1486px) {
+  .vacancies__text {
+    margin: 35px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vacancies__text {
+    margin: 15px 0 0 0;
+  }
+}
+
+.vacancies__paragraph {
+  line-height: 25px;
+}
+
+.vacancies__list {
+  margin: 15px 0 0 0;
+  line-height: 25px;
+}
+
+.vacancies__list-item {
+  padding: 0 0 0 23px;
+  background: url("/img/icons/blue_arrow_r.png") 0 center no-repeat;
+}
+
+.vacancies__form {
+  margin: 30px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1486px) {
+  .vacancies__form {
+    margin: 30px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vacancies__form {
+    margin: 20px 0 0 0;
+  }
+}
+
+.vacancies__left-column {
+  width: 339px;
+  overflow: hidden;
+}
+
+@media (max-width: 1024px) {
+  .vacancies__left-column {
+    width: 45%;
+  }
+}
+
+@media (max-width: 700px) {
+  .vacancies__left-column {
+    width: 100%;
+  }
+}
+
+.vacancies__right-column {
+  width: 585px;
+}
+
+@media (max-width: 1486px) {
+  .vacancies__right-column {
+    width: 343px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .vacancies__right-column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .vacancies__right-column {
+    width: 100%;
+    margin: 15px 0 0 0;
+  }
+}
+
+.vacancies__input-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.vacancies__label {
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 15px;
+  color: #97a2b9;
+  padding: 0 0 0 20px;
+  margin: 0 0 10px 0;
+}
+
+.vacancies__input {
+  color: #575b7e;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 0 10px 0;
+}
+
+.vacancies__input::placeholder {
+  color: #97a2b9;
+}
+
+.vacancies__file-block {
+  display: flex;
+  margin: 10px 0 20px 0;
+}
+
+@media (max-width: 1024px) {
+  .vacancies__file-block {
+    flex-direction: column;
+  }
+}
+
+.vacancies__file {
+  margin: 0 0 0 50px;
+}
+
+@media (max-width: 1024px) {
+  .vacancies__file {
+    margin: 10px 0 0 0;
+  }
+}
+
+.vacancies__checkbox-block {
+  display: flex;
+  margin: 0 0 20px 0;
+}
+
+.vacancies__checkbox-input {
+  margin: 2px 0 0 0;
+}
+
+.vacancies__label-checkbox {
+  margin: 0 0 0 10px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.vacancies__recaptcha {
+  margin: 0 0 20px 0;
+}
+
+.vacancies__submit-btn {
+  width: 130px;
+  height: 38px;
+  background: #53b4f3;
+  border-radius: 29px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.vacancies__afterwords {
+  margin: 0 0 15px 0;
+}

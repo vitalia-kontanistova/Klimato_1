@@ -1,0 +1,120 @@
+.category {
+  &__title {
+    margin: 30px 0 0 0;
+    @media (max-width: 1024px) {
+      margin: 20px 0 0 0;
+    }
+  }
+
+  &__intro {
+    margin: 20px 0 0 0;
+    @media (max-width: 1024px) {
+      margin: 15px 0 0 0;
+    }
+  }
+
+  &__paragraph {
+    margin: 15px 0 0 0;
+
+    &_main {
+      font-weight: bold;
+    }
+  }
+
+  &__block {
+    margin: 40px 0 0 0;
+
+    @media (max-width: 1486px) {
+      margin: 50px 0 0 0;
+    }
+    @media (max-width: 1024px) {
+      margin: 40px 0 0 0;
+    }
+  }
+  &__tiles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1024px) {
+      justify-content: space-evenly;
+    }
+    @media (max-width: 750px) {
+      flex-wrap: wrap;
+    }
+  }
+  &__type {
+  }
+
+  &__brand {
+  }
+
+  &__connection-type {
+  }
+
+  &__afterwords {
+    margin: 40px 0 0 0;
+
+    @media (max-width: 1486px) {
+      margin: 50px 0 0 0;
+    }
+    @media (max-width: 1024px) {
+      margin: 20px 0 0 0;
+    }
+  }
+}
+
+.tile {
+  width: 298px;
+  height: 230px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0 0 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (max-width: 1486px) {
+    width: 217px;
+    height: 230px;
+    margin: 20px 0 0 0;
+  }
+  @media (max-width: 1024px) {
+    margin: 15px 5px 0 5px;
+  }
+  @media (max-width: 750px) {
+    width: 230px;
+    height: 230px;
+  }
+
+  &__title {
+    height: 36px;
+  }
+
+  &__image {
+    height: 116px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      max-width: 80%;
+      max-height: 80%;
+
+      @media (max-width: 1486px) {
+        max-width: 85%;
+        max-height: 85%;
+      }
+    }
+  }
+
+  &__btn {
+    width: 52px;
+    height: 25px;
+    background: url("/img/icons/white_arrow_r_18.png") center no-repeat #53b4f3;
+    border-radius: 26px;
+  }
+}

@@ -1,0 +1,274 @@
+.footer {
+  flex: 0 0 auto;
+  margin: 120px 0 0 0;
+}
+
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: Geometria;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 26px;
+  color: #575b7e;
+}
+
+.footer__main a,
+.footer__main a:hover,
+.footer__main a:active,
+.footer__main a:visited {
+  color: #575b7e;
+}
+
+.footer__catalog {
+  width: 492px;
+}
+
+.footer__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #575b7e;
+  height: 57px;
+  padding: 0 20px 0 0;
+}
+
+.footer__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.footer__catalog-list {
+  height: 208px;
+}
+
+.footer__catalog-list li {
+  width: 50%;
+  padding: 0 20px 0 0;
+}
+
+.footer__info {
+  width: 462px;
+}
+
+.footer__info-list {
+  height: 208px;
+}
+
+.footer__info-list li {
+  width: 50%;
+  padding: 0 20px 0 0;
+}
+
+.footer__contacts {
+  width: 492px;
+}
+
+.footer__contacts-list {
+  height: 150px;
+}
+
+.footer__contact {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #575b7e;
+}
+
+.footer__phone {
+  width: 50%;
+  padding: 0 20px 0 28px;
+  margin: 0 0 8px 0;
+  background: url("/img/icons/phone_blue_small.png") 0 3px no-repeat;
+}
+
+.footer__mail {
+  width: 50%;
+  padding: 0 35px 0 31px;
+  margin: 0 0 8px 0;
+  text-align: right;
+  background: url("/img/icons/mail_small.png") 34px 3px no-repeat;
+}
+
+.footer__subtitle {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 16px;
+  color: #97a3b9;
+}
+
+.footer__callback a,
+.footer__callback a:hover,
+.footer__callback a:active,
+.footer__callback a:visited {
+  color: #ffffff;
+}
+
+.footer__callback-row {
+  display: inline-block;
+  background: #53b4f3;
+  border-radius: 29px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 13px 6px 14px 7px;
+}
+
+.footer__object {
+  height: 50px;
+  background: #e7ebf6;
+  padding: 12px 0 0 0;
+  margin: 80px 0 0 0;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 75px;
+}
+
+.footer__logo img {
+  width: 100%;
+}
+
+.footer__copyright {
+  margin: 0 0 0 17px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #575b7e;
+}
+
+@media (max-width: 1486px) {
+  .footer {
+    margin: 60px 0 0 0;
+  }
+
+  .footer__catalog {
+    width: 248px;
+  }
+
+  .footer__list {
+    align-items: center;
+  }
+
+  .footer__catalog-list {
+    height: 100%;
+  }
+
+  .footer__catalog-list li {
+    width: 100%;
+  }
+
+  .footer__info {
+    width: 493px;
+  }
+
+  .footer__info-list {
+    height: 235px;
+  }
+
+  .footer__contacts {
+    width: 218px;
+  }
+
+  .footer__contacts-list {
+    height: 100%;
+  }
+
+  .footer__phone {
+    width: 100%;
+    padding: 0 20px 0 28px;
+    margin: 0 0 10px 0;
+    white-space: nowrap;
+  }
+
+  .footer__mail {
+    width: 100%;
+    margin: 30px 0 8px 0;
+    white-space: nowrap;
+    text-align: left;
+    background: url("/img/icons/mail_small.png") 0 3px no-repeat;
+  }
+
+  .footer__object {
+    margin: 51px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    margin: 40px 0 0 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .footer__main {
+    flex-direction: column;
+  }
+
+  .footer__title {
+    height: 36px;
+  }
+
+  .footer__catalog {
+    width: 100%;
+  }
+
+  .footer__catalog-list {
+    margin: 0 0 31px 0;
+  }
+
+  .footer__info {
+    width: 100%;
+  }
+
+  .footer__list {
+    align-items: flex-start;
+  }
+
+  .footer__info-list {
+    margin: 0 0 31px 0;
+    height: 100%;
+  }
+
+  .footer__info-list li {
+    width: 100%;
+  }
+
+  .footer__contacts {
+    width: 100%;
+  }
+
+  .footer__mail {
+    margin: 0 0 8px 0;
+  }
+
+  .footer__object {
+    height: 113px;
+    padding: 20px 0 0 0;
+    margin: 40px 0 0 0;
+  }
+
+  .footer__row {
+    flex-direction: column;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .footer__logo {
+    width: 105px;
+  }
+
+  .footer__copyright {
+    margin: 10px 0 0 0;
+  }
+}

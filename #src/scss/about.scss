@@ -1,0 +1,112 @@
+.about__title {
+  margin: 30px 0 0 0;
+
+  @media (max-width: 1024px) {
+    margin: 20px 0 0 0;
+  }
+}
+
+.about__block {
+  margin: 40px 0 0 0;
+  @media (max-width: 1024px) {
+    margin: 35px 0 0 0;
+  }
+}
+
+.schedule {
+  margin: 30px 0 0 0;
+
+  &__title {
+    margin: 30px 0 0 0;
+
+    @media (max-width: 1024px) {
+      margin: 20px 0 0 0;
+    }
+  }
+
+  &__text {
+    line-height: 27px;
+    padding: 0 0 0 27px;
+    margin: 10px 0 0 0;
+    background: url("/img/icons/clock.png") 0 5px no-repeat;
+
+    @media (max-width: 375px) {
+      & span {
+        display: block;
+      }
+    }
+  }
+}
+
+.info {
+  &__text {
+    padding: 20px 0 0 0;
+  }
+}
+
+.then {
+  &__text {
+    padding: 15px 0 0 0;
+  }
+}
+
+.now {
+  &__text {
+    padding: 15px 0 0 0;
+  }
+}
+
+.principles {
+  &__item {
+    font-style: italic;
+    padding: 0 0 0 20px;
+    margin: 20px 0 0 0;
+    background: url("/img/icons/blue_arrow_r.png") 0 3px no-repeat;
+  }
+
+  &__main-item {
+    font-weight: bold;
+    color: #53b4f3;
+    padding: 35px 0 0 0;
+
+    @media (max-width: 1486px) {
+      padding: 20px 0 0 0;
+    }
+    @media (max-width: 1024px) {
+      padding: 15px 0 0 0;
+    }
+  }
+}
+
+.details {
+  &__item {
+    margin: 10px 0 0 0;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 5px;
+
+    @media (max-width: 1024px) {
+      padding: 10px 20px 15px 20px;
+    }
+  }
+
+  &__item-title {
+    width: 470px;
+    display: inline-block;
+    margin: 0;
+
+    @media (max-width: 1486px) {
+      width: 280px;
+      margin: 0;
+    }
+
+    @media (max-width: 1024px) {
+      width: 100%;
+      margin: 0 0 5px 0;
+    }
+  }
+}
+
+.note {
+  margin: 40px 0 0 0;
+}

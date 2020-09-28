@@ -1,0 +1,166 @@
+<div class="main__right-panel">
+  <form class="main__filter filter" action="#">
+    <div class="filter__title-line">
+      <div class="filter__title subtitle">Фильтр товаров</div>
+      <div class="filter__btn"></div>
+    </div>
+    <div class="filter__body-line">
+      <div class="filter__block price">
+        <div class="price__title filter__subtitle">Цена:</div>
+        <div class="price__values">
+          <input
+            type="number"
+            class="price__left price__val"
+            name="price__left"
+          />
+          -
+          <input
+            type="number"
+            class="price__right price__val"
+            name="price__right"
+          />
+        </div>
+        <div class="price__range range">
+          <div class="range__container">
+            <div class="range__slider-block">
+              <input
+                type="range"
+                class="range__input-slider range__input-left"
+                min="14000"
+                max="400000"
+                value="50000"
+              />
+              <input
+                type="range"
+                class="range__input-slider range__input-right"
+                min="14000"
+                max="400000"
+                value="350000"
+              />
+              <div class="range__slider">
+                <div class="range__slider-track"></div>
+                <div class="range__slider-interval"></div>
+                <div class="range__slider-thumb th-left"></div>
+                <div class="range__slider-thumb th-right"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter__block brand">
+        <div class="filter__subtitle">Бренды:</div>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="brand__clima-esperto"
+          />
+          Clima Esperto
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="brand__carrier"
+          />
+          Carrier
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="brand__lessar"
+          />
+          Lessar
+        </label>
+        <label class="filter__label">
+          <input type="checkbox" class="filter__checkbox" name="brand__york" />
+          YORK
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="brand__daikin"
+          />
+          Daikin
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="brand__general-climate"
+          />
+          General Climate
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="brand__dantex"
+          />
+          Dantex
+        </label>
+      </div>
+
+      <div class="filter__block availability">
+        <div class="filter__subtitle">Наличие:</div>
+        <label class="filter__label">
+          <input type="checkbox" class="filter__checkbox" name="availability" />
+          Только товары в наличии
+        </label>
+      </div>
+
+      <div class="filter__block type">
+        <div class="filter__subtitle">Тип фанкойла:</div>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="type__cassette"
+          />
+          Кассетный
+        </label>
+        <label class="filter__label">
+          <input type="checkbox" class="filter__checkbox" name="type__wall" />
+          Настенный
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="type__horizontal-channel"
+          />
+          Канальный горизонтальный
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="type__vertical-channel"
+          />
+          Канальный вертикальный
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="type__decorative-case"
+          />
+          В декоративном корпусе
+        </label>
+        <label class="filter__label">
+          <input
+            type="checkbox"
+            class="filter__checkbox"
+            name="type__high-pressure-channel"
+          />
+          Высоконапорный канальный
+        </label>
+      </div>
+
+      <input type="submit" class="filter__submit" value="Применить" />
+    </div>
+  </form>
+</div>

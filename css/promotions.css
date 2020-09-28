@@ -1,0 +1,51 @@
+.promotions__title {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .promotions__title {
+    margin: 20px 0 0 0;
+  }
+}
+
+.promotions__paragraph {
+  margin: 15px 0 0 0;
+}
+
+.promotions__paragraph:first-child {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .promotions__paragraph:first-child {
+    margin: 15px 0 0 0;
+  }
+}
+
+.promotions__image {
+  margin: 35px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .promotions__image {
+    margin: 18px 0 0 0;
+  }
+}
+
+.promotions__image img {
+  width: 100%;
+}
+
+.promotions__shop {
+  margin: 40px 0 0 0;
+}
+
+.promotions__shop-layout {
+  margin: 15px 0 0 0;
+}
+
+@media (max-width: 1486px) {
+  .promotions__shop-layout {
+    margin: 20px 0 0 0;
+  }
+}

@@ -1,0 +1,147 @@
+.air-velocity-calculator {
+  &__title {
+    margin: 30px 0 0 0;
+    @media (max-width: 1024px) {
+      margin: 20px 0 0 0;
+    }
+  }
+
+  &__text {
+    margin: 30px 0 0 0;
+    @media (max-width: 1024px) {
+      margin: 15px 0 0 0;
+    }
+  }
+
+  &__input {
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+  &__result {
+    width: 140px;
+    margin: 5px 10px 0 5px;
+  }
+}
+.calculator-form {
+  margin: 50px 0 0 0;
+
+  @media (max-width: 1024px) {
+    margin: 40px auto 0;
+  }
+
+  &__title {
+    display: flex;
+
+    .calculator-form__first-col {
+      @media (max-width: 700px) {
+        width: 80%;
+        margin: 0 auto;
+      }
+      @media (max-width: 425px) {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+    .calculator-form__second-col {
+      @media (max-width: 700px) {
+        display: none;
+      }
+    }
+  }
+
+  &__first-col {
+    width: 490px;
+
+    @media (max-width: 1486px) {
+      width: 250px;
+    }
+
+    @media (max-width: 1024px) {
+      width: 40%;
+    }
+
+    @media (max-width: 700px) {
+      width: 100%;
+    }
+  }
+
+  &__second-col {
+    width: 440px;
+
+    @media (max-width: 1486px) {
+      width: 430px;
+    }
+    @media (max-width: 1024px) {
+      width: 50%;
+    }
+    @media (max-width: 700px) {
+      width: 95%;
+    }
+  }
+
+  &__parameter {
+    display: flex;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 10px 0 0 0;
+
+    @media (max-width: 700px) {
+      flex-wrap: wrap;
+      width: 80%;
+      margin: 10px auto 0;
+    }
+    @media (max-width: 425px) {
+      width: 100%;
+    }
+  }
+
+  &__value {
+    width: 140px;
+    margin: 0 5px;
+
+    @media (max-width: 1486px) {
+      width: 135px;
+    }
+    @media (max-width: 700px) {
+      margin: 0;
+    }
+
+    @media (max-width: 320px) {
+      width: 115px;
+    }
+  }
+
+  &__third-col {
+    text-align: right;
+
+    @media (max-width: 1024px) {
+      width: 10%;
+    }
+    @media (max-width: 700px) {
+      width: 5%;
+    }
+  }
+
+  &__btn-block {
+    margin: 30px 0 0 0;
+    display: flex;
+    justify-content: start;
+
+    @media (max-width: 1024px) {
+      margin: 20px 0 0 0;
+      justify-content: center;
+    }
+  }
+
+  &__btn {
+    background: #53b4f3;
+    border-radius: 29px;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 10px;
+  }
+}

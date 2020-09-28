@@ -1,0 +1,41 @@
+.promotions {
+  &__title {
+    margin: 30px 0 0 0;
+    @media (max-width: 1024px) {
+      margin: 20px 0 0 0;
+    }
+  }
+
+  &__paragraph {
+    margin: 15px 0 0 0;
+
+    &:first-child {
+      margin: 30px 0 0 0;
+      @media (max-width: 1024px) {
+        margin: 15px 0 0 0;
+      }
+    }
+  }
+
+  &__image {
+    margin: 35px 0 0 0;
+    @media (max-width: 1024px) {
+      margin: 18px 0 0 0;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  &__shop {
+    margin: 40px 0 0 0;
+  }
+
+  &__shop-layout {
+    margin: 15px 0 0 0;
+
+    @media (max-width: 1486px) {
+      margin: 20px 0 0 0;
+    }
+  }
+}

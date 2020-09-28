@@ -1,0 +1,78 @@
+@import "fonts";
+@import "nullstyle";
+@import "header";
+@import "footer";
+@import "main__sidebar";
+@import "index";
+@import "about";
+@import "installation";
+@import "payment";
+@import "promotions";
+@import "vacancies";
+@import "contacts";
+@import "articles";
+@import "calculations";
+@import "air-velocity-calculator";
+@import "category";
+@import "product-card";
+@import "cart";
+
+
+body {
+  background: #f2f4f9;
+}
+
+.container {
+  max-width: 1486px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  @media (max-width: 1486px) {
+    max-width: 1000px;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 0 15px;
+    min-width: 375px;
+  }
+
+  @media (max-width: 700px) {
+    min-width: 320px;
+    padding: 0 15px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  color: #575b7e;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  //////////
+  color: red; //--
+}
+
+.subtitle {
+  font-weight: bold;
+  //////////
+  color: red; //--
+}
+
+.link,
+.link:hover,
+.link:active,
+.link:visited {
+  color: #53b4f3;
+  text-decoration: underline;
+}
