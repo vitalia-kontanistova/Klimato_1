@@ -1,0 +1,141 @@
+.category__title {
+  margin: 30px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .category__title {
+    margin: 20px 0 0 0;
+  }
+}
+
+.category__intro {
+  margin: 20px 0 0 0;
+}
+
+@media (max-width: 1024px) {
+  .category__intro {
+    margin: 15px 0 0 0;
+  }
+}
+
+.category__paragraph {
+  margin: 15px 0 0 0;
+}
+
+.category__paragraph_main {
+  font-weight: bold;
+}
+
+.category__block {
+  margin: 40px 0 0 0;
+}
+
+@media (max-width: 1486px) {
+  .category__block {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .category__block {
+    margin: 40px 0 0 0;
+  }
+}
+
+.category__tiles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .category__tiles {
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 750px) {
+  .category__tiles {
+    flex-wrap: wrap;
+  }
+}
+
+.category__afterwords {
+  margin: 40px 0 0 0;
+}
+
+@media (max-width: 1486px) {
+  .category__afterwords {
+    margin: 50px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .category__afterwords {
+    margin: 20px 0 0 0;
+  }
+}
+
+.tile {
+  width: 298px;
+  height: 230px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 15px 0 0 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 1486px) {
+  .tile {
+    width: 217px;
+    height: 230px;
+    margin: 20px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .tile {
+    margin: 15px 5px 0 5px;
+  }
+}
+
+@media (max-width: 750px) {
+  .tile {
+    width: 230px;
+    height: 230px;
+  }
+}
+
+.tile__title {
+  height: 36px;
+}
+
+.tile__image {
+  height: 116px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile__image img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+@media (max-width: 1486px) {
+  .tile__image img {
+    max-width: 85%;
+    max-height: 85%;
+  }
+}
+
+.tile__btn {
+  width: 52px;
+  height: 25px;
+  background: url("/img/icons/white_arrow_r_18.png") center no-repeat #53b4f3;
+  border-radius: 26px;
+}

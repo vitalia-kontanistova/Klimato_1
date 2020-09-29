@@ -381,45 +381,52 @@
   <form action="#" class="vacancies__form">
     <div class="vacancies__left-column">
       <div class="vacancies__input-block">
-        <label for="name-input" class="vacancies__label">Ваше имя:</label>
+        <label for="vacancies__name" class="vacancies__label">Ваше имя:</label>
         <input
           type="text"
           class="vacancies__input"
-          id="name-input"
+          id="vacancies__name"
+          name="vacancies__name"
           placeholder="Иван"
         />
       </div>
       <div class="vacancies__input-block">
-        <label for="phone-input" class="vacancies__label">Телефон:</label>
+        <label for="vacancies__phone" class="vacancies__label">Телефон:</label>
         <input
           type="text"
           class="vacancies__input"
-          id="phone-input"
+          id="vacancies__phone"
+          name="vacancies__phone"
           placeholder="+7 (000) 000 - 00 - 00"
         />
       </div>
       <div class="vacancies__file-block">
         <label class="vacancies__label-file">Резюме:</label>
-        <input type="file" class="vacancies__file" id="file-input" />
+        <input
+          type="file"
+          class="vacancies__file"
+          id="vacancies__resume"
+          name="vacancies__resume"
+        />
       </div>
       <div class="vacancies__checkbox-block">
         <input
           type="checkbox"
           class="vacancies__checkbox-input"
-          id="checkbox-input"
+          id="vacancies__consent"
+          name="vacancies__consent"
         />
-        <label for="checkbox-input" class="vacancies__label-checkbox"
-          >Ставя отметку, я даю свое согласие на обработку моих персональных
+        <label for="vacancies__consent" class="vacancies__label-checkbox">
+          Ставя отметку, я даю свое согласие на обработку моих персональных
           данных в соответствии с законом №152-Ф3 «О персональных данных» от
           27.07.2006 и принимаю условия
-          <a href="#" class="link">Политики конфиденциальности</a></label
+          <a href="#" class="link">Политики конфиденциальности </a></label
         >
       </div>
-      <div class="vacancies__recaptcha">
-        <img src="/img/recaptcha.png" alt="" />
-      </div>
       <div class="vacancies__submit">
-        <button type="submit" class="vacancies__submit-btn">Отправить</button>
+        <button type="submit" class="vacancies__submit-btn" type="submit">
+          Отправить
+        </button>
       </div>
     </div>
 

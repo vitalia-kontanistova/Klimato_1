@@ -2,6 +2,7 @@
 @@include("slick.min.js");
 @@include("payment.js");
 @@include("filter.js");
+@@include("cart.js");
 
 $(document).ready(function () {
   $(".header__burger").click(function (event) {

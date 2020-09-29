@@ -2,35 +2,18 @@
   <ul class="main__trace">
     <li><a href="index.html">Главная</a></li>
     <li><a href="calculations.html">Онлайн расчеты</a></li>
-    <li>
-      <a href="air-velocity-calculator.html">Калькулятор скорости воздуха</a>
-    </li>
+    <li><a href="air-velocity-calculator.html">Калькулятор скорости воздуха</a></li>
   </ul>
 
-  <h1 class="air-velocity-calculator__title title">
-    Калькулятор скорости воздуха
-  </h1>
+  <h1 class="air-velocity-calculator__title title"> Калькулятор скорости воздуха </h1>
 
   <div class="air-velocity-calculator__text">
-    <p class="air-velocity-calculator__paragraph">
-      Расчет скорости воздуха в воздуховодах круглого и прямоугольного сечения.
-      Подбор воздуховода по скорости воздуха.
-    </p>
-    <p class="air-velocity-calculator__paragraph">
-      Рекомендуемая скорость не более:
-      <input
-        type="number"
-        class="air-velocity-calculator__result air-velocity-calculator__input"
-        placeholder="0"
-      />
-      - м/с
-    </p>
+    <p class="air-velocity-calculator__paragraph"> Расчет скорости воздуха в воздуховодах круглого и прямоугольного сечения. Подбор воздуховода по скорости воздуха. </p>
+    <p class="air-velocity-calculator__paragraph"> Рекомендуемая скорость не более: 
+      <input type="number" class="air-velocity-calculator__result air-velocity-calculator__input" placeholder="0" name="calculator__recommended-speed"/> - м/с </p>
   </div>
 
-  <form
-    action="#"
-    class="air-velocity-calculator__calculator-form calculator-form"
-  >
+  <form action="#" class="air-velocity-calculator__calculator-form calculator-form" >
     <div class="calculator-form__title subtitle">
       <div class="calculator-form__first-col">Параметры</div>
       <div class="calculator-form__second-col">Значения</div>
@@ -39,41 +22,29 @@
     <div class="calculator-form__parameter">
       <div class="calculator-form__first-col">Расход воздуха</div>
       <div class="calculator-form__second-col">
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__air-consumption"/>
         <span class="calculator-form__text">-м<sup>3</sup></span>
       </div>
       <div class="calculator-form__third-col">
-        <input type="checkbox" class="calculator-form__checkbox" />
+        <input type="checkbox" class="calculator-form__checkbox" name="calculator__air-consumption_checkbox"/>
       </div>
     </div>
 
     <div class="calculator-form__parameter">
       <div class="calculator-form__first-col">Диаметр воздуховода</div>
       <div class="calculator-form__second-col">
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__air-duct-diameter"/>
         <span class="calculator-form__text">-мм</span>
       </div>
       <div class="calculator-form__third-col">
-        <input type="checkbox" class="calculator-form__checkbox" />
+        <input type="checkbox" class="calculator-form__checkbox" name="calculator__air-duct-diameter_checkbox"/>
       </div>
     </div>
 
     <div class="calculator-form__parameter">
       <div class="calculator-form__first-col">Площадь круглого сечения</div>
       <div class="calculator-form__second-col">
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__area-of-circle"/>
         <span class="calculator-form__text">-м<sup>2</sup></span>
       </div>
       <div class="calculator-form__third-col"></div>
@@ -82,11 +53,7 @@
     <div class="calculator-form__parameter">
       <div class="calculator-form__first-col">Скорость в сечении</div>
       <div class="calculator-form__second-col">
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__velocity-in-round-section"/>
         <span class="calculator-form__text">-м/с</span>
       </div>
       <div class="calculator-form__third-col"></div>
@@ -95,17 +62,9 @@
     <div class="calculator-form__parameter">
       <div class="calculator-form__first-col">Высота/ширина воздуховода</div>
       <div class="calculator-form__second-col">
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__air-duct-height"/>
         /
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__air-duct-width"/>
         <span class="calculator-form__text">-мм</span>
       </div>
       <div class="calculator-form__third-col">
@@ -114,15 +73,9 @@
     </div>
 
     <div class="calculator-form__parameter">
-      <div class="calculator-form__first-col">
-        Площадь прямоугольного сечения
-      </div>
+      <div class="calculator-form__first-col"> Площадь прямоугольного сечения </div>
       <div class="calculator-form__second-col">
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__area-of-rectangle"/>
         <span class="calculator-form__text">-м<sup>2</sup></span>
       </div>
       <div class="calculator-form__third-col"></div>
@@ -131,19 +84,15 @@
     <div class="calculator-form__parameter">
       <div class="calculator-form__first-col">Скорость в сечении</div>
       <div class="calculator-form__second-col">
-        <input
-          type="number"
-          class="calculator-form__value air-velocity-calculator__input"
-          placeholder="0"
-        />
+        <input type="number" class="calculator-form__value air-velocity-calculator__input" placeholder="0" name="calculator__velocity-in-rectangular-section"/>
         <span class="calculator-form__text">-м/с</span>
       </div>
       <div class="calculator-form__third-col"></div>
     </div>
 
     <div class="calculator-form__btn-block">
-      <button class="calculator-form__btn">Сбросить</button>
-      <button class="calculator-form__btn">Рассчитать</button>
+      <button class="calculator-form__btn" type="reset">Сбросить</button>
+      <button class="calculator-form__btn" type="submit">Рассчитать</button>
     </div>
   </form>
 </div>
