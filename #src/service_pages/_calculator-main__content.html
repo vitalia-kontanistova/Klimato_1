@@ -1,0 +1,161 @@
+<div class="main__content calculator">
+  <ul class="main__trace">
+    <li><a href="index.html">Главная</a></li>
+    <li><a href="calculations.html">Онлайн расчеты</a></li>
+    <li><a href="calculator.html">Калькулятор скорости воздуха</a></li>
+  </ul>
+
+  <h1 class="calculator__title title">Калькулятор скорости воздуха</h1>
+
+  <form action="#" class="calculator__form">
+    <div class="calculator__intro">
+      <p class="calculator__paragraph">
+        Расчет скорости воздуха в воздуховодах круглого и прямоугольного
+        сечения. Подбор воздуховода по скорости воздуха.
+      </p>
+      <p class="calculator__paragraph">
+        Рекомендуемая скорость не более:
+        <input
+          type="number"
+          class="calculator__result calculator__input"
+          placeholder="0"
+          name="calculator__recommended-speed"
+        />
+        - м/с
+      </p>
+    </div>
+
+    <div class="calculator__subtitle subtitle">
+      <div class="calculator__first-col">Параметры</div>
+      <div class="calculator__second-col">Значения</div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Расход воздуха</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-consumption"
+        />
+        <span class="calculator__text">-м<sup>3</sup></span>
+      </div>
+      <div class="calculator__third-col">
+        <input
+          type="checkbox"
+          class="calculator__checkbox"
+          name="calculator__air-consumption_checkbox"
+        />
+      </div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Диаметр воздуховода</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-duct-diameter"
+        />
+        <span class="calculator__text">-мм</span>
+      </div>
+      <div class="calculator__third-col">
+        <input
+          type="checkbox"
+          class="calculator__checkbox"
+          name="calculator__air-duct-diameter_checkbox"
+        />
+      </div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Площадь круглого сечения</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__area-of-circle"
+        />
+        <span class="calculator__text">-м<sup>2</sup></span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Скорость в сечении</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__velocity-in-round-section"
+        />
+        <span class="calculator__text">-м/с</span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Высота/ширина воздуховода</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-duct-height"
+        />
+        /
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-duct-width"
+        />
+        <span class="calculator__text">-мм</span>
+      </div>
+      <div class="calculator__third-col">
+        <input
+          type="checkbox"
+          class="calculator__checkbox"
+          name="calculator__air-duct-rectangular_checkbox"
+        />
+      </div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Площадь прямоугольного сечения</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__area-of-rectangle"
+        />
+        <span class="calculator__text">-м<sup>2</sup></span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Скорость в сечении</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__velocity-in-rectangular-section"
+        />
+        <span class="calculator__text">-м/с</span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__btn-block">
+      <button class="calculator__btn" type="reset">Сбросить</button>
+      <button class="calculator__btn" type="submit">Рассчитать</button>
+    </div>
+  </form>
+</div>

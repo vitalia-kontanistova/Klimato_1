@@ -1,4 +1,4 @@
-.air-velocity-calculator {
+.calculator {
   &__title {
     margin: 30px 0 0 0;
     @media (max-width: 1024px) {
@@ -6,7 +6,7 @@
     }
   }
 
-  &__text {
+  &__intro {
     margin: 30px 0 0 0;
     @media (max-width: 1024px) {
       margin: 15px 0 0 0;
@@ -17,24 +17,43 @@
     background: #ffffff;
     border-radius: 5px;
     padding: 10px 20px;
+
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+
+  &__checkbox {
+    -webkit-appearance: none;
+
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    border-radius: 5px;
+
+    &:checked {
+      background: #53b4f3;
+    }
   }
 
   &__result {
     width: 140px;
     margin: 5px 10px 0 5px;
   }
-}
-.calculator-form {
-  margin: 50px 0 0 0;
 
-  @media (max-width: 1024px) {
-    margin: 40px auto 0;
-  }
-
-  &__title {
+  &__subtitle {
     display: flex;
+    margin: 50px 0 0 0;
 
-    .calculator-form__first-col {
+    @media (max-width: 1024px) {
+      margin: 40px auto 0;
+    }
+
+    .calculator__first-col {
       @media (max-width: 700px) {
         width: 80%;
         margin: 0 auto;
@@ -44,7 +63,7 @@
         margin: 0 auto;
       }
     }
-    .calculator-form__second-col {
+    .calculator__second-col {
       @media (max-width: 700px) {
         display: none;
       }

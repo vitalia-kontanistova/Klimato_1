@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.min.css" />
-    <title>Акции и скидки</title>
+    <title>Калькулятор</title>
   </head>
   <body>
     <div class="wrapper">
@@ -59,25 +59,25 @@
             <nav class="header__menu">
   <ul class="header__menu-list header__list">
     <li class="header__category">Категории</li>
-    <li class="header__list-item"> <a href="about.html">О компании</a> </li>
-    <li class="header__list-item"> <a href="payment.html">Оплата и доставка</a> </li>
-    <li class="header__list-item active"><a href="promotions.html">Акции и распродажи</a></li>
-    <li class="header__list-item"> <a href="installation.html">Монтаж и проектирование</a> </li>
+    <li class="header__list-item"><a href="about.html">О компании</a></li>
+    <li class="header__list-item"><a href="payment.html">Оплата и доставка</a></li>
+    <li class="header__list-item"><a href="promotions.html">Акции и распродажи</a></li>
+    <li class="header__list-item"><a href="installation.html">Монтаж и проектирование</a></li>
     <li class="header__list-item"><a href="vacancies.html">Вакансии</a></li>
     <li class="header__list-item"><a href="contacts.html">Контакты</a></li>
   </ul>
   <ul class="header__category-list header__list">
-    <li><a href="#">Фанкойлы</a></li>
-    <li><a href="#">Аксессуары для фанкойлов</a></li>
-    <li><a href="#">Чиллеры</a></li>
-    <li><a href="#">Компрессорно-Конденсаторные блоки</a></li>
-    <li><a href="#">VRF системы</a></li>
-    <li><a href="#">Фреоновые воздухоохладители</a></li>
-    <li><a href="#">Руфтопы</a></li>
-    <li><a href="#">Тепловые завесы</a></li>
-    <li><a href="#">Тепловые насосы</a></li>
-    <li><a href="#">Увлажнители воздуха</a></li>
-    <li><a href="#">Осушители воздуха</a></li>
+    <li><a href="category.html">Фанкойлы</a></li>
+    <li><a href="category.html">Аксессуары для фанкойлов</a></li>
+    <li><a href="category.html">Чиллеры</a></li>
+    <li><a href="category.html">Компрессорно-Конденсаторные блоки</a></li>
+    <li><a href="category.html">VRF системы</a></li>
+    <li><a href="category.html">Фреоновые воздухоохладители</a></li>
+    <li><a href="category.html">Руфтопы</a></li>
+    <li><a href="category.html">Тепловые завесы</a></li>
+    <li><a href="category.html">Тепловые насосы</a></li>
+    <li><a href="category.html">Увлажнители воздуха</a></li>
+    <li><a href="category.html">Осушители воздуха</a></li>
     <li class="header__category-back"></li>
   </ul>
 </nav>
@@ -318,139 +318,166 @@
 </div>
 
             </div>
-            <div class="main__content promotions">
+            <div class="main__content calculator">
   <ul class="main__trace">
     <li><a href="index.html">Главная</a></li>
-    <li><a href="promotions.html">Акции и скидки</a></li>
+    <li><a href="calculations.html">Онлайн расчеты</a></li>
+    <li><a href="calculator.html">Калькулятор скорости воздуха</a></li>
   </ul>
 
-  <h1 class="promotions__title title">Акции и скидки</h1>
+  <h1 class="calculator__title title">Калькулятор скорости воздуха</h1>
 
-  <div class="promotions__text">
-    <div class="promotions__paragraph subtitle">
-      Цены на сайте не являются окончательными, возможна индивидуальная скидка!
+  <form action="#" class="calculator__form">
+    <div class="calculator__intro">
+      <p class="calculator__paragraph">
+        Расчет скорости воздуха в воздуховодах круглого и прямоугольного
+        сечения. Подбор воздуховода по скорости воздуха.
+      </p>
+      <p class="calculator__paragraph">
+        Рекомендуемая скорость не более:
+        <input
+          type="number"
+          class="calculator__result calculator__input"
+          placeholder="0"
+          name="calculator__recommended-speed"
+        />
+        - м/с
+      </p>
     </div>
-    <div class="promotions__paragraph">
-      Для получения скидки, позвоните или отправьте нам запрос.
+
+    <div class="calculator__subtitle subtitle">
+      <div class="calculator__first-col">Параметры</div>
+      <div class="calculator__second-col">Значения</div>
     </div>
-    <div class="promotions__paragraph subtitle">
-      Даже на один товар постараемся дать максимально выгодную цену.
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Расход воздуха</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-consumption"
+        />
+        <span class="calculator__text">-м<sup>3</sup></span>
+      </div>
+      <div class="calculator__third-col">
+        <input
+          type="checkbox"
+          class="calculator__checkbox"
+          name="calculator__air-consumption_checkbox"
+        />
+      </div>
     </div>
-    <div class="promotions__paragraph">
-      При покупке фанкойлов с аксессуарами, скидка на аксессуары 20%.
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Диаметр воздуховода</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-duct-diameter"
+        />
+        <span class="calculator__text">-мм</span>
+      </div>
+      <div class="calculator__third-col">
+        <input
+          type="checkbox"
+          class="calculator__checkbox"
+          name="calculator__air-duct-diameter_checkbox"
+        />
+      </div>
     </div>
-  </div>
-  <div class="promotions__image">
-    <img src="/img/promotions.png" alt="" />
-  </div>
-  <div class="promotions__shop">
-    <div class="promotions__more-products subtitle">Еще товары по акции:</div>
-    <ul class="promotions__shop-layout shop-layout">
-      <li class="promotions__product product">
-        <a href="#" class="product__top-row">
-          <div class="product__discount">
-            <img src="/img/shop/icons/discount.png" alt="" />
-          </div>
-          <div class="product__picture">
-            <img src="/img/shop/product.png" alt="" />
-          </div>
-          <div class="product__article">Артикул: 4999</div>
-        </a>
-        <a href="#" class="product__description">
-          <div class="product__title subtitle">Фанкойл YORK YHVP 4</div>
-          <ul class="product__parameters-list">
-            <li>Холодопроизводительность, кВт: <span>3.8</span></li>
-            <li>Теплопроизводительность, кВт: <span>5.2</span></li>
-            <li>Максимальный уровень шума, дБА: <span>57</span></li>
-          </ul>
-        </a>
-        <div class="product__bottom-row">
-          <button class="product__buy-btn">В корзину</button>
-          <div class="product__price">
-            <div class="product__old-price">30 060₽</div>
-            <div class="product__new-price">30 060₽</div>
-          </div>
-        </div>
-      </li>
-      <li class="promotions__product product">
-        <div class="product__top-row">
-          <div class="product__discount"></div>
-          <div class="product__picture">
-            <img src="/img/shop/product.png" alt="" />
-          </div>
-          <div class="product__article">Артикул: 4999</div>
-        </div>
-        <div class="product__description">
-          <div class="product__title subtitle">Фанкойл YORK YHVP 4</div>
-          <ul class="product__parameters-list">
-            <li>Холодопроизводительность, кВт: <span>3.8</span></li>
-            <li>Теплопроизводительность, кВт: <span>5.2</span></li>
-            <li>Максимальный уровень шума, дБА: <span>57</span></li>
-          </ul>
-        </div>
-        <div class="product__bottom-row">
-          <button class="product__buy-btn">В корзину</button>
-          <div class="product__price">
-            <div class="product__old-price">30 060₽</div>
-            <div class="product__new-price">30 060₽</div>
-          </div>
-        </div>
-      </li>
-      <li class="promotions__product product">
-        <div class="product__top-row">
-          <div class="product__discount"></div>
-          <div class="product__picture">
-            <img src="/img/shop/product.png" alt="" />
-          </div>
-          <div class="product__article">Артикул: 4999</div>
-        </div>
-        <div class="product__description">
-          <div class="product__title subtitle">Фанкойл YORK YHVP 4</div>
-          <ul class="product__parameters-list">
-            <li>Холодопроизводительность, кВт: <span>3.8</span></li>
-            <li>Теплопроизводительность, кВт: <span>5.2</span></li>
-            <li>Максимальный уровень шума, дБА: <span>57</span></li>
-          </ul>
-        </div>
-        <div class="product__bottom-row">
-          <button class="product__buy-btn">В корзину</button>
-          <div class="product__price">
-            <div class="product__old-price">30 060₽</div>
-            <div class="product__new-price">30 060₽</div>
-          </div>
-        </div>
-      </li>
-      <li class="promotions__product product">
-        <div class="product__top-row">
-          <div class="product__discount">
-            <img src="/img/shop/icons/discount.png" alt="" />
-          </div>
-          <div class="product__picture">
-            <img src="/img/shop/product.png" alt="" />
-          </div>
-          <div class="product__article">Артикул: 4999</div>
-        </div>
-        <div class="product__description">
-          <div class="product__title subtitle">Фанкойл YORK YHVP 4</div>
-          <ul class="product__parameters-list">
-            <li>Холодопроизводительность, кВт: <span>3.8</span></li>
-            <li>Теплопроизводительность, кВт: <span>5.2</span></li>
-            <li>Максимальный уровень шума, дБА: <span>57</span></li>
-          </ul>
-        </div>
-        <div class="product__bottom-row">
-          <button class="product__buy-btn">В корзину</button>
-          <div class="product__price">
-            <div class="product__old-price">30 060₽</div>
-            <div class="product__new-price">30 060₽</div>
-          </div>
-        </div>
-      </li>
-    </ul>
-    <button class="promotions__shop-btn shop-btn">
-      Показать ещё 6 товаров
-    </button>
-  </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Площадь круглого сечения</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__area-of-circle"
+        />
+        <span class="calculator__text">-м<sup>2</sup></span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Скорость в сечении</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__velocity-in-round-section"
+        />
+        <span class="calculator__text">-м/с</span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Высота/ширина воздуховода</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-duct-height"
+        />
+        /
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__air-duct-width"
+        />
+        <span class="calculator__text">-мм</span>
+      </div>
+      <div class="calculator__third-col">
+        <input
+          type="checkbox"
+          class="calculator__checkbox"
+          name="calculator__air-duct-rectangular_checkbox"
+        />
+      </div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Площадь прямоугольного сечения</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__area-of-rectangle"
+        />
+        <span class="calculator__text">-м<sup>2</sup></span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__parameter">
+      <div class="calculator__first-col">Скорость в сечении</div>
+      <div class="calculator__second-col">
+        <input
+          type="number"
+          class="calculator__value calculator__input"
+          placeholder="0"
+          name="calculator__velocity-in-rectangular-section"
+        />
+        <span class="calculator__text">-м/с</span>
+      </div>
+      <div class="calculator__third-col"></div>
+    </div>
+
+    <div class="calculator__btn-block">
+      <button class="calculator__btn" type="reset">Сбросить</button>
+      <button class="calculator__btn" type="submit">Рассчитать</button>
+    </div>
+  </form>
 </div>
 
           </div>

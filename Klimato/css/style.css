@@ -2121,44 +2121,60 @@ a.articles__more {
   background: url("/img/icons/white_arrow_r_18.png") right center no-repeat;
 }
 
-.air-velocity-calculator__title {
+.calculator__title {
   margin: 30px 0 0 0;
 }
 
-.air-velocity-calculator__text {
+.calculator__intro {
   margin: 30px 0 0 0;
 }
 
-.air-velocity-calculator__input {
+.calculator__input {
   background: #ffffff;
   border-radius: 5px;
   padding: 10px 20px;
+  -moz-appearance: textfield;
 }
 
-.air-velocity-calculator__result {
+.calculator__input::-webkit-outer-spin-button,
+.calculator__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calculator__checkbox {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #ffffff;
+  border-radius: 5px;
+}
+
+.calculator__checkbox:checked {
+  background: #53b4f3;
+}
+
+.calculator__result {
   width: 140px;
   margin: 5px 10px 0 5px;
 }
 
-.calculator-form {
-  margin: 50px 0 0 0;
-}
-
-.calculator-form__title {
+.calculator__subtitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 50px 0 0 0;
 }
 
-.calculator-form__first-col {
+.calculator__first-col {
   width: 490px;
 }
 
-.calculator-form__second-col {
+.calculator__second-col {
   width: 440px;
 }
 
-.calculator-form__parameter {
+.calculator__parameter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2168,16 +2184,16 @@ a.articles__more {
   margin: 10px 0 0 0;
 }
 
-.calculator-form__value {
+.calculator__value {
   width: 140px;
   margin: 0 5px;
 }
 
-.calculator-form__third-col {
+.calculator__third-col {
   text-align: right;
 }
 
-.calculator-form__btn-block {
+.calculator__btn-block {
   margin: 30px 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2187,7 +2203,7 @@ a.articles__more {
           justify-content: start;
 }
 
-.calculator-form__btn {
+.calculator__btn {
   background: #53b4f3;
   border-radius: 29px;
   padding: 10px 30px;
@@ -3344,15 +3360,15 @@ body {
     width: 496px;
   }
 
-  .calculator-form__first-col {
+  .calculator__first-col {
     width: 250px;
   }
 
-  .calculator-form__second-col {
+  .calculator__second-col {
     width: 430px;
   }
 
-  .calculator-form__value {
+  .calculator__value {
     width: 135px;
   }
 
@@ -4237,31 +4253,31 @@ body {
     width: 47%;
   }
 
-  .air-velocity-calculator__title {
+  .calculator__title {
     margin: 20px 0 0 0;
   }
 
-  .air-velocity-calculator__text {
+  .calculator__intro {
     margin: 15px 0 0 0;
   }
 
-  .calculator-form {
+  .calculator__subtitle {
     margin: 40px auto 0;
   }
 
-  .calculator-form__first-col {
+  .calculator__first-col {
     width: 40%;
   }
 
-  .calculator-form__second-col {
+  .calculator__second-col {
     width: 50%;
   }
 
-  .calculator-form__third-col {
+  .calculator__third-col {
     width: 10%;
   }
 
-  .calculator-form__btn-block {
+  .calculator__btn-block {
     margin: 20px 0 0 0;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -4694,35 +4710,35 @@ body {
     min-height: fit-content;
   }
 
-  .calculator-form__title .calculator-form__first-col {
+  .calculator__subtitle .calculator__first-col {
     width: 80%;
     margin: 0 auto;
   }
 
-  .calculator-form__title .calculator-form__second-col {
+  .calculator__subtitle .calculator__second-col {
     display: none;
   }
 
-  .calculator-form__first-col {
+  .calculator__first-col {
     width: 100%;
   }
 
-  .calculator-form__second-col {
+  .calculator__second-col {
     width: 95%;
   }
 
-  .calculator-form__parameter {
+  .calculator__parameter {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     width: 80%;
     margin: 10px auto 0;
   }
 
-  .calculator-form__value {
+  .calculator__value {
     margin: 0;
   }
 
-  .calculator-form__third-col {
+  .calculator__third-col {
     width: 5%;
   }
 
@@ -4753,12 +4769,12 @@ body {
 }
 
 @media (max-width: 425px) {
-  .calculator-form__title .calculator-form__first-col {
+  .calculator__subtitle .calculator__first-col {
     width: 100%;
     margin: 0 auto;
   }
 
-  .calculator-form__parameter {
+  .calculator__parameter {
     width: 100%;
   }
 
@@ -4900,7 +4916,7 @@ body {
     width: 100%;
   }
 
-  .calculator-form__value {
+  .calculator__value {
     width: 115px;
   }
 }
