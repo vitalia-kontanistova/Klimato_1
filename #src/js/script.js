@@ -3,6 +3,7 @@
 @@include("payment.js");
 @@include("filter.js");
 @@include("cart.js");
+@@include("product-card.js");
 
 $(document).ready(function () {
   $(".header__burger").click(function (event) {

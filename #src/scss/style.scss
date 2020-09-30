@@ -16,7 +16,9 @@
 @import "category";
 @import "product-card";
 @import "cart";
-
+// **************************
+@import "temp";
+// **************************
 
 body {
   background: #f2f4f9;
@@ -59,14 +61,10 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
-  //////////
-  color: red; //--
 }
 
 .subtitle {
   font-weight: bold;
-  //////////
-  color: red; //--
 }
 
 .link,
