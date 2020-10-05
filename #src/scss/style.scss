@@ -74,3 +74,39 @@ body {
   color: #53b4f3;
   text-decoration: underline;
 }
+
+.checkbox {
+  -webkit-appearance: none;
+  min-width: 18px;
+  height: 18px;
+  background: #ffffff;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+
+  // *****************
+  position: relative;
+  top: 0;
+  left: 0;
+
+  &:checked {
+    background: #53b4f3;
+  }
+}
+
+.checkbox-menu {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border: solid 1px #e5e5e5;
+  border-radius: 3px;
+
+  // *****************
+  position: relative;
+  top: 0;
+  left: 0;
+
+  &:checked {
+    background: #53b4f3;
+  }
+}

@@ -519,14 +519,21 @@ h6 {
 }
 
 .main__sale {
+  display: block;
   width: 100%;
   background: url("/img/icons/sale.png") 28px center no-repeat #ff4f8d;
   border-radius: 36px;
   padding: 10px 80px 12px 75px;
   font-size: 14px;
   line-height: 14px;
-  color: #ffffff;
   margin: 20px 0 0 0;
+}
+
+.main__sale,
+.main__sale:visited,
+.main__sale:hover,
+.main__sale:active {
+  color: #ffffff;
 }
 
 .main__certificates {
@@ -712,6 +719,7 @@ a.articles__more {
   padding: 20px;
   background: #53b4f3;
   border-radius: 10px;
+  color: #ffffff;
 }
 
 .filter.filter__folded {
@@ -2142,18 +2150,6 @@ a.articles__more {
   margin: 0;
 }
 
-.calculator__checkbox {
-  -webkit-appearance: none;
-  width: 18px;
-  height: 18px;
-  background: #ffffff;
-  border-radius: 5px;
-}
-
-.calculator__checkbox:checked {
-  background: #53b4f3;
-}
-
 .calculator__result {
   width: 140px;
   margin: 5px 10px 0 5px;
@@ -3062,6 +3058,38 @@ body {
 .link:visited {
   color: #53b4f3;
   text-decoration: underline;
+}
+
+.checkbox {
+  -webkit-appearance: none;
+  min-width: 18px;
+  height: 18px;
+  background: #ffffff;
+  border: solid 1px #e5e5e5;
+  border-radius: 5px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.checkbox:checked {
+  background: #53b4f3;
+}
+
+.checkbox-menu {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border: solid 1px #e5e5e5;
+  border-radius: 3px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.checkbox-menu:checked {
+  background: #53b4f3;
 }
 
 @media (max-width: 1486px) {

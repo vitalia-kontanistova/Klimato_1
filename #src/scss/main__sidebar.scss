@@ -16,14 +16,21 @@
 }
 
 .main__sale {
+  display: block;
   width: 100%;
   background: url("/img/icons/sale.png") 28px center no-repeat #ff4f8d;
   border-radius: 36px;
   padding: 10px 80px 12px 75px;
   font-size: 14px;
   line-height: 14px;
-  color: #ffffff;
   margin: 20px 0 0 0;
+
+  &,
+  &:visited,
+  &:hover,
+  &:active {
+    color: #ffffff;
+  }
 }
 
 .main__certificates {
@@ -272,6 +279,7 @@ a.articles__more {
   padding: 20px;
   background: #53b4f3;
   border-radius: 10px;
+  color: #ffffff;
 
   @media (max-width: 1024px) {
     width: 345px;
