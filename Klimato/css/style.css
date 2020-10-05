@@ -807,6 +807,13 @@ a.articles__more {
   background: #ffffff;
   border-radius: 5px;
   color: #97a2b9;
+  -moz-appearance: textfield;
+}
+
+.price__val::-webkit-outer-spin-button,
+.price__val::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .brand {

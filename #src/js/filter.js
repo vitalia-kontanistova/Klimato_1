@@ -54,8 +54,8 @@ $(document).ready(function () {
     setRightRange();
   }
 
-  inputLeft.on("input", setLeftVal);
-  inputRight.on("input", setRightVal);
+  inputLeft.on("change", setLeftVal);
+  inputRight.on("change", setRightVal);
 
   function FilterRestructure() {
     if (document.documentElement.clientWidth <= 1024) {

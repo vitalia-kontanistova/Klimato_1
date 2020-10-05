@@ -368,6 +368,14 @@ a.articles__more {
     border-radius: 5px;
     color: #97a2b9;
 
+    -moz-appearance: textfield;
+
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+
     @media (max-width: 1024px) {
       width: 140px;
       text-align: center;

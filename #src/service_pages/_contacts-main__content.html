@@ -68,6 +68,7 @@
             type="text"
             class="feedback__input"
             id="name"
+            name="name"
             placeholder="Иван"
           />
         </div>
@@ -76,6 +77,7 @@
           <input
             type="email"
             class="feedback__input"
+            name="mail"
             id="mail"
             placeholder="example@mail.com"
           />
@@ -83,9 +85,11 @@
         <div class="feedback__input-block">
           <label for="phone" class="feedback__label">Телефон:</label>
           <input
-            type="text"
+            type="tel"
             class="feedback__input"
             id="phone"
+            name="phone"
+            pattern="\+(\s)?7(\s)?\([0-9]{3}\)(\s)?[0-9]{3}(\s)?-(\s)?[0-9]{2}(\s)?-(\s)?[0-9]{2}"
             placeholder="+7 (000) 000 - 00 - 00"
           />
         </div>
@@ -102,6 +106,7 @@
           <input
             type="checkbox"
             class="feedback__checkbox-input checkbox"
+            name="checkbox"
             id="checkbox"
           />
           <label for="checkbox" class="feedback__label-checkbox"
