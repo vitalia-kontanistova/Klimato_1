@@ -113,13 +113,13 @@
     }
 
     &_moscow {
-      background: url("/img/icons/delivery.png") 0 0 no-repeat;
+      background: url("../img/icons/delivery.png") 0 0 no-repeat;
     }
     &_russia {
-      background: url("/img/icons/calendar.png") 0 0 no-repeat;
+      background: url("../img/icons/calendar.png") 0 0 no-repeat;
     }
     &_refund {
-      background: url("/img/icons/refund.png") 0 0 no-repeat;
+      background: url("../img/icons/refund.png") 0 0 no-repeat;
       margin: 0;
     }
   }
@@ -229,7 +229,7 @@
 .buy-btn {
   width: 130px;
   height: 38px;
-  background: url("/img/icons/cart.png") 15px center no-repeat #53b4f3;
+  background: url("../img/icons/cart.png") 15px center no-repeat #53b4f3;
   border-radius: 29px;
   padding: 10px 15px 10px 40px;
 

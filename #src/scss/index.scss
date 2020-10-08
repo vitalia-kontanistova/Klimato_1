@@ -30,12 +30,12 @@
 
 .partners__slider .slick-arrow.slick-prev {
   left: 0;
-  background: url("/img/arrow_l.png") 0 0/100% no-repeat;
+  background: url("../img/arrow_l.png") 0 0/100% no-repeat;
 }
 
 .partners__slider .slick-arrow.slick-next {
   right: 0;
-  background: url("/img/arrow_r.png") 0 0/100% no-repeat;
+  background: url("../img/arrow_r.png") 0 0/100% no-repeat;
 }
 
 .partners__slider .slick-dots {
@@ -93,14 +93,14 @@
 .clients__list li {
   margin: 0 0 18px 0;
   text-indent: 23px;
-  background: url("/img/icons/blue_arrow_r.png") left 3px no-repeat;
+  background: url("../img/icons/blue_arrow_r.png") left 3px no-repeat;
 }
 
 .clients__btn {
   width: 164px;
   height: 38px;
   border-radius: 29px;
-  background: url("/img/icons/white_arrow_round.png") 20px 10px no-repeat
+  background: url("../img/icons/white_arrow_round.png") 20px 10px no-repeat
     #53b4f3;
   font-weight: bold;
   color: #ffffff;
@@ -132,7 +132,7 @@
 .index__shop-btn {
   // width: 255px;
   // height: 38px;
-  // background: url("/img/shop/icons/round_arrow.png") 20px center no-repeat
+  // background: url("../img/shop/icons/round_arrow.png") 20px center no-repeat
   //   #53b4f3;
   // border-radius: 29px;
   // padding: 10px 18px 10px 45px;
@@ -144,7 +144,7 @@
 }
 
 .shop-btn {
-  background: url("/img/shop/icons/round_arrow.png") 20px center no-repeat
+  background: url("../img/shop/icons/round_arrow.png") 20px center no-repeat
     #53b4f3;
   border-radius: 29px;
   padding: 10px 18px 10px 45px;
@@ -209,7 +209,7 @@
 }
 
 .product__buy-btn {
-  background: url("/img/shop/icons/cart.png") 15px center no-repeat #53b4f3;
+  background: url("../img/shop/icons/cart.png") 15px center no-repeat #53b4f3;
   border-radius: 29px;
   font-weight: bold;
   color: #ffffff;
@@ -265,12 +265,12 @@
 
 .intro-slider .slick-arrow.slick-prev {
   left: 12px;
-  background: url("/img/arrow_l.png") center/100% no-repeat;
+  background: url("../img/arrow_l.png") center/100% no-repeat;
 }
 
 .intro-slider .slick-arrow.slick-next {
   right: 12px;
-  background: url("/img/arrow_r.png") center/100% no-repeat;
+  background: url("../img/arrow_r.png") center/100% no-repeat;
 }
 
 .intro-slider .slick-dots {
@@ -439,7 +439,7 @@
   .product__buy-btn {
     font-size: 12px;
     line-height: 16px;
-    background: url("/img/shop/icons/cart.png") 12px center no-repeat #53b4f3;
+    background: url("../img/shop/icons/cart.png") 12px center no-repeat #53b4f3;
     padding: 10px 15px 10px 40px;
   }
 
@@ -452,7 +452,7 @@
     font-size: 18px;
     line-height: 22px;
     padding: 0 0 0 30px;
-    background: url("/img/shop/icons/i.png") 0 center/20% no-repeat;
+    background: url("../img/shop/icons/i.png") 0 center/20% no-repeat;
   }
 }
 

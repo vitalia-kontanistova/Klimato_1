@@ -1,3 +1,4 @@
+@@include("jquery-3.5.1.slim.min.js");
 @@include("webp.js");
 @@include("slick.min.js");
 @@include("payment.js");
@@ -88,7 +89,6 @@ $(document).ready(function () {
 
   $(".intro-slider").slick({
     arrows: true,
-    // arrows: false,
     dots: true,
     slidesToShow: 1,
     autoplay: true,

@@ -18,7 +18,7 @@
 .main__sale {
   display: block;
   width: 100%;
-  background: url("/img/icons/sale.png") 28px center no-repeat #ff4f8d;
+  background: url("../img/icons/sale.png") 28px center no-repeat #ff4f8d;
   border-radius: 36px;
   padding: 10px 80px 12px 75px;
   font-size: 14px;
@@ -45,7 +45,7 @@
 .main__certificates-btn {
   display: block;
   width: 180px;
-  background: url("/img/icons/white_arrow_r_18.png") 147px center no-repeat
+  background: url("../img/icons/white_arrow_r_18.png") 147px center no-repeat
     #53b4f3;
   border-radius: 29px;
   margin: 20px 0 0 0;
@@ -62,7 +62,7 @@
 
 .main__request {
   width: 217px;
-  background: url("/img/icons/request.png") 28px center no-repeat #53b4f3;
+  background: url("../img/icons/request.png") 28px center no-repeat #53b4f3;
   border-radius: 36px;
   padding: 10px 27px 12px 73px;
   font-size: 14px;
@@ -74,7 +74,7 @@
 .main__calculations {
   display: block;
   width: 217px;
-  background: url("/img/icons/calculator.png") 28px center no-repeat #53b4f3;
+  background: url("../img/icons/calculator.png") 28px center no-repeat #53b4f3;
   border-radius: 36px;
   padding: 18px 34px 18px 73px;
   font-size: 14px;
@@ -120,11 +120,11 @@
 .catalog__item-btn {
   width: 52px;
   height: 48px;
-  background: url("/img/icons/white_arrow_d.png") center center no-repeat;
+  background: url("../img/icons/white_arrow_d.png") center center no-repeat;
 }
 
 .catalog__item-btn.active {
-  background: url("/img/icons/white_arrow_u.png") center center no-repeat;
+  background: url("../img/icons/white_arrow_u.png") center center no-repeat;
 }
 
 .catalog__subcatalog {
@@ -140,11 +140,12 @@
 
 .catalog__subitem {
   padding: 8px 8px 8px 40px;
-  background: url("/img/icons/white_arrow_r.png") 20px center no-repeat;
+  background: url("../img/icons/white_arrow_r.png") 20px center no-repeat;
 }
 
 .catalog__subitem:hover {
-  background: url("/img/icons/white_arrow_r.png") 20px center no-repeat #ff4f8d;
+  background: url("../img/icons/white_arrow_r.png") 20px center no-repeat
+    #ff4f8d;
 }
 
 .articles {
@@ -183,7 +184,7 @@
 .articles__read {
   width: 52px;
   height: 25px;
-  background: url("/img/icons/white_arrow_r_18.png") center center no-repeat
+  background: url("../img/icons/white_arrow_r_18.png") center center no-repeat
     #53b4f3;
   border-radius: 26px;
   margin: 15px 0 0 0;
@@ -191,7 +192,7 @@
 
 .articles__more {
   display: inline-block;
-  background: url("/img/icons/white_arrow_r_18.png") 109px center no-repeat
+  background: url("../img/icons/white_arrow_r_18.png") 109px center no-repeat
     #53b4f3;
   border-radius: 29px;
   margin: 20px 0 0 0;
@@ -304,7 +305,7 @@ a.articles__more {
   &__btn {
     width: 40px;
     height: 40px;
-    background: url("/img/icons/filter.png") center right no-repeat;
+    background: url("../img/icons/filter.png") center right no-repeat;
     display: none;
 
     @media (max-width: 1024px) {

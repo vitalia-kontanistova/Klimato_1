@@ -28,7 +28,7 @@
     line-height: 27px;
     padding: 0 0 0 27px;
     margin: 10px 0 0 0;
-    background: url("/img/icons/clock.png") 0 5px no-repeat;
+    background: url("../img/icons/clock.png") 0 5px no-repeat;
 
     @media (max-width: 375px) {
       & span {
@@ -61,7 +61,7 @@
     font-style: italic;
     padding: 0 0 0 20px;
     margin: 20px 0 0 0;
-    background: url("/img/icons/blue_arrow_r.png") 0 3px no-repeat;
+    background: url("../img/icons/blue_arrow_r.png") 0 3px no-repeat;
   }
 
   &__main-item {

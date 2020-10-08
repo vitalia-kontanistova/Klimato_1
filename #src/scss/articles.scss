@@ -26,7 +26,7 @@
 .articles-btn:active,
 .articles-btn:visited //+
 {
-  background: url("/img/icons/white_arrow_r_18.png") right 20px center no-repeat
+  background: url("../img/icons/white_arrow_r_18.png") right 20px center no-repeat
     #53b4f3;
   border-radius: 29px;
   color: #ffffff;
@@ -42,7 +42,7 @@
 
   &__more-btn //+
   {
-    background: url("/img/shop/icons/round_arrow.png") 20px center no-repeat
+    background: url("../img/shop/icons/round_arrow.png") 20px center no-repeat
       #53b4f3;
     border-radius: 29px;
     padding: 10px 20px 10px 45px;

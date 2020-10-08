@@ -42,7 +42,7 @@
   font-weight: 800;
   padding: 10px 13px 10px 35px;
   white-space: nowrap;
-  background: url("/img/icons/phone_white.png") 10px center no-repeat #53b4f3;
+  background: url("../img/icons/phone_white.png") 10px center no-repeat #53b4f3;
 }
 
 .header__contacts {
@@ -60,7 +60,7 @@
 .header__phone {
   margin: 0 0 0 -28px;
   padding: 0 0 0 28px;
-  background: url("/img/icons/phone_blue.png") 0 3px no-repeat;
+  background: url("../img/icons/phone_blue.png") 0 3px no-repeat;
 }
 
 .header__subtext {
@@ -74,7 +74,7 @@
 .header__mail {
   margin: 0 0 0 -32px;
   padding: 0 0 0 32px;
-  background: url("/img/icons/mail.png") 0 3px no-repeat;
+  background: url("../img/icons/mail.png") 0 3px no-repeat;
 }
 
 .header__advantage {
@@ -473,7 +473,7 @@
   .header__category-back {
     width: 52px;
     height: 25px;
-    background: url("/img/icons/arrow_l.png") center center no-repeat;
+    background: url("../img/icons/arrow_l.png") center center no-repeat;
   }
 
   .search {

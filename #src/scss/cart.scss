@@ -18,8 +18,6 @@
 
   &__table {
     margin: 30px 0 0 0;
-
-    // border: solid 1px red; //--
   }
 
   &__table-header {
@@ -338,14 +336,8 @@
   }
 }
 
-//*******************
-
 .contact-info {
-  // border: solid 1px red; //--
   margin: 40px 0 0 0;
-
-  &__title {
-  }
 
   &__subjects {
     margin: 20px 0 0 0;
@@ -365,19 +357,10 @@
       padding: 15px;
     }
 
-    &_natural-person {
-    }
-
-    &_legal-entity {
-    }
-
     &_active {
       background: #ffffff;
       color: #575b7e;
     }
-  }
-
-  &__body-row {
   }
 
   &__body {
@@ -398,7 +381,6 @@
   }
 }
 
-//******************
 .contact-form {
   display: flex;
   justify-content: space-between;
@@ -409,14 +391,9 @@
     display: flex;
     flex-direction: column;
 
-    // border: solid 1px pink; //--
-
     @media (max-width: 1486px) {
       width: 100%;
     }
-  }
-
-  &__subtitle {
   }
 
   &__label {
@@ -434,12 +411,8 @@
     }
   }
 
-  //****************
-
   &__second-col {
     width: 345px;
-
-    // border: solid 1px pink; //--
 
     @media (max-width: 1486px) {
       width: 100%;
@@ -450,15 +423,10 @@
   &__delivery-block {
     display: flex;
     flex-direction: column;
-
-    // border: solid 1px plum; //--
   }
 
   &__subtitle {
     margin: 0 0 15px 0;
-  }
-
-  &__delivery {
   }
 
   &__radio {
@@ -481,13 +449,11 @@
     display: flex;
     flex-direction: column;
     margin: 30px 0 0 0;
-
-    // border: solid 1px plum; //--
   }
 
   &__installation-options {
     width: 216px;
-    background: url("/img/icons/blue_arrow_d_12.png") center right 10px
+    background: url("../img/icons/blue_arrow_d_12.png") center right 10px
       no-repeat #f2f4f9;
     border-radius: 5px;
     padding: 10px 20px;
@@ -496,23 +462,16 @@
     -webkit-appearance: none;
   }
 
-  &__installation {
-  }
-
   &__payment-block {
     display: flex;
     flex-direction: column;
     margin: 30px 0 0 0;
-
-    // border: solid 1px plum; //--
   }
 
   &__payment {
   }
 
   &__total {
-    // border: solid 1px plum; //--
-
     font-weight: bold;
     margin: 30px 0 0 0;
   }
@@ -527,13 +486,9 @@
     }
   }
 
-  //****************
-
   &__third-col {
     width: 315px;
     padding: 33px 0 0 0;
-
-    // border: solid 1px pink; //--
 
     @media (max-width: 1486px) {
       width: 100%;
@@ -542,9 +497,6 @@
 
   &__consent {
     display: flex;
-  }
-
-  &__checkbox {
   }
 
   &__label-checkbox {

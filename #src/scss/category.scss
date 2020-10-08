@@ -43,14 +43,6 @@
       flex-wrap: wrap;
     }
   }
-  &__type {
-  }
-
-  &__brand {
-  }
-
-  &__connection-type {
-  }
 
   &__afterwords {
     margin: 40px 0 0 0;
@@ -114,7 +106,7 @@
   &__btn {
     width: 52px;
     height: 25px;
-    background: url("/img/icons/white_arrow_r_18.png") center no-repeat #53b4f3;
+    background: url("../img/icons/white_arrow_r_18.png") center no-repeat #53b4f3;
     border-radius: 26px;
   }
 }
